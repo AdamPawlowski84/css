@@ -1,9 +1,20 @@
-.static-width{
-    width: 300px;
-    height: 300px;
+#banner{
     background-color: #606060;
-    background-image: url(https://cdn.nba.com/logos/leagues/logo-jr-nba.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cdn.nba.com/logos/leagues/logo-jr-nba.svg), url(https://cdn.nba.com/logos/leagues/logo-gleague.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%;
 }
+
+
+
+
+
+
+/*
+
+https://cdn.nba.com/logos/leagues/logo-jr-nba.svg
+https://cdn.nba.com/logos/leagues/logo-gleague.svg
+
